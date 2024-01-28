@@ -24,9 +24,9 @@
 
 body {
     font-family: var(--body-font);
+    background: var(--Black);
     color: var(--White);
     line-height: 1.3;
-
 }
 
 img {
@@ -44,6 +44,9 @@ img {
     margin-top: 12px;
     margin-top: -8px;
     background: var(--yellow);
+    box-shadow: 5px 5px 55px -27px var(--yellow);
+    -webkit-box-shadow: 5px 5px 55px -27px var(--yellow);
+    -moz-box-shadow: 5px 5px 55px -27px var(--yellow);
 }
 
 .container {
@@ -143,13 +146,13 @@ p {
 
     .pub {
         padding-top: 8px;
-        padding-bottom: 10px ;
+        padding-bottom: 10px;
     }
 
     .btn-primary {
         margin-top: 12px;
     }
- 
+
     p {
         padding-bottom: 12px;
     }
@@ -158,4 +161,25 @@ p {
         width: 90%;
         margin: 0 60px;
     }
+}
+
+
+
+.attribution {
+    text-align: center;
+    color: var(--Black);
+    margin-top: 35px;
+    padding: 20px;
+    background:hsl(0, 0%, 50%);
+}
+
+.attribution a {
+    display: inline-block;
+    color: hsl(228, 45%, 44%);
+    font-size: 14px;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+    color: var(--yellow);
 }
